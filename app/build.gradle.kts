@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.parlor"
+    namespace = "com.donge.qiaohu"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.parlor"
+        applicationId = "com.donge.qiaohu"
         minSdk = 29
         targetSdk = 35
         versionCode = 2

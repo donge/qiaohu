@@ -1,4 +1,4 @@
-package com.example.parlor.llm
+package com.donge.qiaohu.llm
 
 import android.content.Context
 import android.util.Log

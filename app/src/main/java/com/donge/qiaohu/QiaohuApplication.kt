@@ -1,4 +1,4 @@
-package com.example.parlor
+package com.donge.qiaohu
 
 import android.app.Application
 import android.util.Log
@@ -8,9 +8,9 @@ import android.util.Log
  * Currently only needed as the android:name entry point for potential future
  * dependency injection / global initialisation.
  */
-class ParlourApplication : Application() {
+class QiaohuApplication : Application() {
     override fun onCreate() {
         super.onCreate()
-        Log.i("ParlourApp", "Application created")
+        Log.i("QiaohuApp", "Application created")
     }
 }

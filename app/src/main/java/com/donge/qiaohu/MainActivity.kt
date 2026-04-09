@@ -1,4 +1,4 @@
-package com.example.parlor
+package com.donge.qiaohu
 
 import android.Manifest
 import android.os.Bundle
@@ -12,16 +12,16 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.platform.LocalContext
 import androidx.lifecycle.lifecycleScope
-import com.example.parlor.camera.CameraCapture
-import com.example.parlor.ui.ParlourScreen
-import com.example.parlor.ui.theme.ParlourTheme
+import com.donge.qiaohu.camera.CameraCapture
+import com.donge.qiaohu.ui.QiaohuScreen
+import com.donge.qiaohu.ui.theme.QiaohuTheme
 import kotlinx.coroutines.launch
 
 private const val TAG = "MainActivity"
 
 class MainActivity : ComponentActivity() {
 
-    private val viewModel: ParlourViewModel by viewModels()
+    private val viewModel: QiaohuViewModel by viewModels()
 
     // ── Permission launcher ───────────────────────────────────────────────────
 
@@ -47,9 +47,9 @@ class MainActivity : ComponentActivity() {
         )
 
         setContent {
-            ParlourTheme {
+            QiaohuTheme {
                 val uiState by viewModel.uiState.collectAsState()
-                ParlourScreen(
+                QiaohuScreen(
                     uiState = uiState,
                     onCameraViewReady = { previewView ->
                         // Wire up CameraCapture once we have a PreviewView

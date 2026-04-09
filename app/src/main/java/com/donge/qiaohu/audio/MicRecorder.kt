@@ -1,11 +1,11 @@
-package com.example.parlor.audio
+package com.donge.qiaohu.audio
 
 import android.annotation.SuppressLint
 import android.media.AudioFormat
 import android.media.AudioRecord
 import android.media.MediaRecorder
 import android.util.Log
-import com.example.parlor.vad.SileroVad
+import com.donge.qiaohu.vad.SileroVad
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job

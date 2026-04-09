@@ -1,4 +1,4 @@
-package com.example.parlor.ui.theme
+package com.donge.qiaohu.ui.theme
 
 import android.app.Activity
 import android.os.Build
@@ -19,7 +19,7 @@ private val DarkColorScheme = darkColorScheme()
 private val LightColorScheme = lightColorScheme()
 
 @Composable
-fun ParlourTheme(
+fun QiaohuTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     dynamicColor: Boolean = true,
     content: @Composable () -> Unit,

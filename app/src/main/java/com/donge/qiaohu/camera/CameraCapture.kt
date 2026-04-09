@@ -1,4 +1,4 @@
-package com.example.parlor.camera
+package com.donge.qiaohu.camera
 
 import android.content.Context
 import android.os.Handler

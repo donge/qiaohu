@@ -1,4 +1,4 @@
-package com.example.parlor.vad
+package com.donge.qiaohu.vad
 
 import ai.onnxruntime.OnnxTensor
 import ai.onnxruntime.OrtEnvironment

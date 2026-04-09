@@ -1,14 +1,14 @@
-package com.example.parlor
+package com.donge.qiaohu
 
 import android.app.Application
 import android.util.Log
-import com.example.parlor.audio.AudioPlayer
-import com.example.parlor.audio.MicRecorder
-import com.example.parlor.llm.LlmEngine
-import com.example.parlor.llm.ModelDownloader
-import com.example.parlor.tts.SentenceSplitter
-import com.example.parlor.tts.SherpaOnnxTts
-import com.example.parlor.vad.SileroVad
+import com.donge.qiaohu.audio.AudioPlayer
+import com.donge.qiaohu.audio.MicRecorder
+import com.donge.qiaohu.llm.LlmEngine
+import com.donge.qiaohu.llm.ModelDownloader
+import com.donge.qiaohu.tts.SentenceSplitter
+import com.donge.qiaohu.tts.SherpaOnnxTts
+import com.donge.qiaohu.vad.SileroVad
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
@@ -21,11 +21,11 @@ import java.io.File
 import java.util.concurrent.atomic.AtomicBoolean
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.parlor.camera.CameraCapture
+import com.donge.qiaohu.camera.CameraCapture
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.withContext
 
-private const val TAG = "ParlourViewModel"
+private const val TAG = "QiaohuViewModel"
 
 // ── UI state ──────────────────────────────────────────────────────────────────
 
@@ -60,7 +60,7 @@ data class UiState(
  * for the Compose UI layer.  Mirrors the event loop in server.py's
  * websocket_endpoint() but runs entirely in-process with no network I/O.
  */
-class ParlourViewModel(application: Application) : AndroidViewModel(application) {
+class QiaohuViewModel(application: Application) : AndroidViewModel(application) {
 
     private val _uiState = MutableStateFlow(UiState())
     val uiState: StateFlow<UiState> = _uiState.asStateFlow()

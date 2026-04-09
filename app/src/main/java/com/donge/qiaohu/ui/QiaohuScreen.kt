@@ -1,4 +1,4 @@
-package com.example.parlor.ui
+package com.donge.qiaohu.ui
 
 import androidx.camera.view.PreviewView
 import androidx.compose.animation.AnimatedVisibility
@@ -20,8 +20,8 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.viewinterop.AndroidView
-import com.example.parlor.AppState
-import com.example.parlor.UiState
+import com.donge.qiaohu.AppState
+import com.donge.qiaohu.UiState
 
 /**
  * Main Compose screen for Parlor.
@@ -39,7 +39,7 @@ import com.example.parlor.UiState
  *   └─────────────────────────────┘
  */
 @Composable
-fun ParlourScreen(
+fun QiaohuScreen(
     uiState: UiState,
     onCameraViewReady: (PreviewView) -> Unit,
     onToggleCamera: () -> Unit,

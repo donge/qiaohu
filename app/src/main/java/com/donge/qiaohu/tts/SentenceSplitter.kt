@@ -1,4 +1,4 @@
-package com.example.parlor.tts
+package com.donge.qiaohu.tts
 
 /**
  * Sentence splitter — Android/Kotlin equivalent of server.py SENTENCE_SPLIT_RE.
