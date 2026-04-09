@@ -19,7 +19,7 @@ Mic → VAD (Silero, 16 kHz) → LLM (Gemma 4 2B, LiteRT-LM, GPU) → TTS (sherp
 
 ## Demo
 
-https://github.com/donge/qiaohu/releases/download/v0.1.1/demo.mp4
+https://github.com/user-attachments/assets/e0bbd935-21c5-46fb-ad0e-f8d9c4aa8b10
 
 *Tested on: Vivo V2338A, Snapdragon 8 Gen 2, Android 16*
 

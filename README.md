@@ -1,6 +1,6 @@
 # qiaohu
 
-https://github.com/donge/qiaohu/releases/download/v0.1.1/demo.mp4
+https://github.com/user-attachments/assets/e0bbd935-21c5-46fb-ad0e-f8d9c4aa8b10
 
 骁龙 8 Gen2 本地多模态语音 AI 助手，完全在设备端运行，无需服务器。
 
