@@ -10,6 +10,9 @@
 .cxx
 local.properties
 
+# Keystore — keep out of git
+app/qiaohu-release.jks
+
 # Model files / binary blobs — too large for git
 app/src/main/assets/*.onnx
 app/src/main/assets/*.bin
